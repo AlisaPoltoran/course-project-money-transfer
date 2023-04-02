@@ -9,10 +9,10 @@ import lombok.Setter;
 @Setter
 public class Transaction {
 
-    private String cardFromNumber;
-    private String cardFromValidTill;
-    private String cardFromCVV;
-    private String cardToNumber;
+    private String cardFromNumber; //16
+    private String cardFromValidTill; //5
+    private String cardFromCVV; //3
+    private String cardToNumber; //16
     private Amount amount;
 
     @Override
@@ -21,7 +21,17 @@ public class Transaction {
                 "cardFromNumber='" + cardFromNumber + '\'' +
                 ", cardFromValidTill='" + cardFromValidTill + '\'' +
                 ", amount=" + amount.getValue() +
-                ", commission=" + (amount.getValue() * 0.1) +
+                ", commission=" + (amount.calcCommission()) +
                 '}';
     }
+
+    public boolean checkTransaction() {
+        if (this.cardFromNumber.length() == 16 && this.cardToNumber.length() == 16 &&
+                this.getCardFromCVV().length() == 3 && this.cardFromValidTill.length() == 5) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

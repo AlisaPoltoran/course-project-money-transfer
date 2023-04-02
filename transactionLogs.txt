@@ -126,3 +126,111 @@
   <message>2023-03-21T18:57:32.639554Transaction{cardFromNumber='1223238902380129', cardFromValidTill='12/99', amount=111100, commission=11110.0}</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T17:08:19.634043Z</date>
+  <millis>1680368899634</millis>
+  <nanos>43000</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>2023-04-01T20:08:19.615666700Transaction{cardFromNumber='3456788976678987', cardFromValidTill='04/25', amount=100000, commission=10000.0}</message>
+</record>
+<record>
+  <date>2023-04-01T17:09:00.384610900Z</date>
+  <millis>1680368940384</millis>
+  <nanos>610900</nanos>
+  <sequence>5</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>2023-04-01T20:09:00.383612200Transaction{cardFromNumber='4356789009876545', cardFromValidTill='07/33', amount=300000, commission=30000.0}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T17:11:07.354106600Z</date>
+  <millis>1680369067354</millis>
+  <nanos>106600</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>2023-04-01T20:11:07.333499Transaction{cardFromNumber='2346578908765435', cardFromValidTill='02/44', amount=100000, commission=10000.0}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T17:17:31.418566100Z</date>
+  <millis>1680369451418</millis>
+  <nanos>566100</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>2023-04-01T20:17:31.377080Transaction{cardFromNumber='2345678765433456', cardFromValidTill='04/33', amount=100000, commission=10000.0}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T17:18:36.183572700Z</date>
+  <millis>1680369516183</millis>
+  <nanos>572700</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>2023-04-01T20:18:36.159562600Transaction{cardFromNumber='2345678765433456', cardFromValidTill='04/33', amount=100000, commission=10000.0}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T17:21:41.856996500Z</date>
+  <millis>1680369701856</millis>
+  <nanos>996500</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>2023-04-01T20:21:41.822005900Transaction{cardFromNumber='2345678765433456', cardFromValidTill='04/33', amount=100000, commission=10000.0}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-02T07:33:57.560586500Z</date>
+  <millis>1680420837560</millis>
+  <nanos>586500</nanos>
+  <sequence>4</sequence>
+  <logger>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</logger>
+  <level>INFO</level>
+  <class>ru.netology.courseprojectmoneytransfer.logger.TransactionLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>2023-04-02T10:33:57.528953Transaction{cardFromNumber='3456789989090098', cardFromValidTill='04/25', amount=100000, commission=10000.0}</message>
+</record>
+</log>
